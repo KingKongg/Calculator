@@ -1,0 +1,56 @@
+body{
+    background-color: #ffe6b3;
+}
+
+#calcBody,
+#calcScreen,
+.buttons-row{
+    font-family:arial;
+    display:block;
+    text-align:center;
+    margin:auto;
+    line-height:2;
+}
+
+
+#calcBody{
+    background-color: #d2a679;
+    border: 3px solid black;
+    border-radius:15px;
+    height:600px;
+    width:400px;
+    padding:25px 0px;
+    margin-top:5%;
+    margin-bottom:5%
+}
+
+#calcScreen{
+    background-color:white;
+    border: solid black;
+    border-radius:20px;
+    font-family: 'Lato', sans-serif;
+    text-align:right;
+    font-size:48px;
+    height:90px;
+    width:340px;
+}
+
+.clearBtn,
+.classBtn,
+.numBtn,
+.operatorBtn,
+.sumBtn,
+.addBtn,
+.clearEntryBtn,
+.positivityBtn,
+.decimalBtn,
+.percentageBtn{
+    background-color: #d9d9d9;
+    border: 2px solid black;
+    font-size:24px;
+    width:80px;
+    height:80px;
+    border-radius: 20px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
